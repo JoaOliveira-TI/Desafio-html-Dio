@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+           
+            <ul>
+                <li><a href="principal.html" target="_self">Principal</a></li>
+                <li><a href="horario_de_atendimento.html" target="_self">Horarios</a></li>
+                <li><a href="sobre.html" target="_self">Sobre Nós</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="src/img/horarios.png" alt="Imagem principal da pagina" height="220" width="386"/>
+                
+            </div>
+    
+            <div class="content">
+                
+                <p><strong>Fale conosco atraves dos telefones:</strong> </p>
+                <p>whatsapp: +551298545-8512 <br> Telefone: (12)3635-8545</p>
+                <h4>Venham nos conhecer pessoalmente!</h4>
+                <p>Avenida Voluntário Benedito Sergio, 298 - Chacara do Visconde Taubaté-SP</p>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1836.062667574061!2d-45.57220819936602!3d-23.019169850827677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccf85a79ba481f%3A0xeec1ff37d3d4a13d!2sAv.%20Volunt%C3%A1rio%20Benedito%20S%C3%A9rgio%2C%20298%20-%20Chacara%20do%20Visc.%2C%20Taubat%C3%A9%20-%20SP%2C%2012050-470!5e0!3m2!1spt-PT!2sbr!4v1726256317703!5m2!1spt-PT!2sbr" 
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+                
+                <form name="sigup" onsubmit="alert('Enviei o Formulario');" method="POST" action="#">
+                    <label>Nome:</label> <input type="text" name="name"/><br>
+                    <label>E-mail:</label> <input type="email" name="email"/><br>
+                    <label>Assunto: </label><input type="text" name="text"/><br>
+                    <label>Mensagem:</label><br>
+                    <textarea rows="20" cols="50" name="message"></textarea><br>
+                    
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar Formulario</buton>
+                </form>
+            </div>
+    
+            <div class="footer">
+                <p><strong>Entre em contato pelo Whats'App</strong> <br> <a href="https://web.whatsapp.com" target="_blank"> <strong>+551298545-8512</strong></a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
